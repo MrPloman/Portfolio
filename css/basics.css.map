@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAAU;EACN,gBAAgB,EAAE,0BAA0B;EAC5C,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,iBAAiB,EAAE,MAAM",
+"sources": ["../sass/basics.sass"],
+"names": [],
+"file": "basics.css"
+}

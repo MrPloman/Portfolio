@@ -1,0 +1,89 @@
+html, body {
+  background-image: url("../media/fondo4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat; }
+
+header {
+  padding: 0px 100px 100px 100px;
+  justify-content: center; }
+  header h1 {
+    font-size: 70px;
+    font-family: "Major Mono Display", monospace;
+    color: black;
+    margin-top: 20px; }
+  header h2 #developer {
+    font-family: "Share Tech Mono", monospace; }
+  header h2 #musician {
+    font-family: "Oswald", sans-serif; }
+  header h2 #engineer {
+    font-family: "Old Standard TT", serif; }
+
+#portal {
+  margin-bottom: 120px; }
+
+#dev {
+  background-image: url("../media/fondocode1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #dev h3 {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 50px;
+    color: white;
+    -webkit-transition: font-size 1s; }
+  #dev h3:hover {
+    font-size: 60px;
+    transition: font-size 1s;
+    color: black;
+    cursor: pointer; }
+
+#mus {
+  background-image: url("../media/fondomusic2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #mus h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    color: white;
+    -webkit-transition: font-size 1s; }
+  #mus h3:hover {
+    font-size: 80px;
+    transition: font-size 1s;
+    color: black;
+    cursor: pointer; }
+
+#film {
+  background-image: url("../media/fondofilm1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #film h3 {
+    font-family: "Old Standard TT", serif;
+    font-size: 50px;
+    color: white;
+    -webkit-transition: font-size 1s; }
+  #film h3:hover {
+    font-size: 80px;
+    transition: font-size 1s;
+    color: black;
+    cursor: pointer; }
+
+footer {
+  padding-bottom: 10px; }
+  footer h4 {
+    font-family: "Old Standard TT", serif;
+    color: black; }
+  footer img {
+    width: 60px; }
+  footer .mail {
+    margin-top: 8px; }
+
+/*# sourceMappingURL=home.css.map */
