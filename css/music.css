@@ -1,0 +1,57 @@
+html, body {
+  background-image: url("../media/fondo4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat; }
+
+header {
+  background-color: black;
+  padding-bottom: 10px; }
+  header h1 {
+    font-size: 50px;
+    font-family: "Major Mono Display", monospace;
+    color: white;
+    margin-top: 20px; }
+  header #home {
+    font-family: "Major Mono Display", monospace;
+    font-size: 15px;
+    color: white; }
+  header #dev {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 15px;
+    color: white; }
+  header #mus {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: white; }
+  header #film {
+    font-family: "Old Standard TT", serif;
+    font-size: 15px;
+    color: white; }
+  header a {
+    color: white; }
+  header a:hover {
+    text-decoration: none;
+    color: grey; }
+
+article div {
+  padding-bottom: 40px;
+  padding-top: 20px; }
+  article div h4 {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 25px;
+    margin-top: 15px;
+    color: black; }
+  article div p {
+    font-family: "Old Standard TT", serif;
+    text-decoration: none; }
+  article div a {
+    color: #787c85; }
+  article div a:hover {
+    text-decoration: none;
+    color: black; }
+
+img {
+  width: 60px; }
+
+/*# sourceMappingURL=music.css.map */

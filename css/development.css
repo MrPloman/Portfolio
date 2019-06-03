@@ -1,0 +1,75 @@
+html, body {
+  background-image: url("../media/fondo4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat; }
+
+header {
+  background-color: black;
+  padding-bottom: 10px; }
+  header h1 {
+    font-size: 50px;
+    font-family: "Major Mono Display", monospace;
+    color: white;
+    margin-top: 20px; }
+  header #home {
+    font-family: "Major Mono Display", monospace;
+    font-size: 15px;
+    color: white; }
+  header #dev {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 15px;
+    color: white; }
+  header #mus {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: white; }
+  header #film {
+    font-family: "Old Standard TT", serif;
+    font-size: 15px;
+    color: white; }
+  header a {
+    color: white; }
+  header a:hover {
+    text-decoration: none;
+    color: grey; }
+
+article div {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  article div img {
+    width: 300px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: width 0.5s;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid grey;
+    -webkit-box-shadow: 13px 20px 56px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 20px 56px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 20px 56px 0px rgba(0, 0, 0, 0.75); }
+  article div img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    cursor: pointer;
+    width: 320px;
+    transition: width 0.5s; }
+  article div h4 {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 25px;
+    margin-top: 15px;
+    color: black; }
+  article div p {
+    font-family: "Old Standard TT", serif;
+    text-decoration: none; }
+  article div a {
+    color: #787c85; }
+  article div a:hover {
+    text-decoration: none;
+    color: black; }
+
+img {
+  width: 60px; }
+
+/*# sourceMappingURL=development.css.map */
